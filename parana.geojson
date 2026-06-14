@@ -1,0 +1,370 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-51.5, -22.5],
+            [-50.5, -22.5],
+            [-50.5, -23.5],
+            [-51.5, -23.5],
+            [-51.5, -22.5]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "region",
+        "name": "Região Norte",
+        "regionCode": "norte",
+        "description": "Região com clima tropical, ideal para culturas de verão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-50.5, -22.5],
+            [-49.5, -22.5],
+            [-49.5, -23.8],
+            [-50.5, -23.8],
+            [-50.5, -22.5]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "region",
+        "name": "Região Nordeste",
+        "regionCode": "nordeste",
+        "description": "Região com altitude variada e clima subtropical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-52.5, -24.0],
+            [-51.0, -24.0],
+            [-51.0, -25.5],
+            [-52.5, -25.5],
+            [-52.5, -24.0]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "region",
+        "name": "Região Centro-Oeste",
+        "regionCode": "centro-oeste",
+        "description": "Região de transição com clima subtropical a temperado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-50.5, -23.8],
+            [-49.0, -23.8],
+            [-49.0, -25.5],
+            [-50.5, -25.5],
+            [-50.5, -23.8]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "region",
+        "name": "Região Sudeste",
+        "regionCode": "sudeste",
+        "description": "Região com altitude elevada e clima temperado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-51.0, -25.5],
+            [-48.5, -25.5],
+            [-48.5, -26.8],
+            [-51.0, -26.8],
+            [-51.0, -25.5]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "region",
+        "name": "Região Sul",
+        "regionCode": "sul",
+        "description": "Região com clima temperado, ideal para culturas de inverno"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4289, -23.4250]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Maringá",
+        "region": "norte",
+        "population": 423561
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1628, -23.3102]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Londrina",
+        "region": "norte",
+        "population": 569180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4673, -23.5704]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Apucarana",
+        "region": "norte",
+        "population": 137340
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6377, -23.1858]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Cornélio Procópio",
+        "region": "norte",
+        "population": 47000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4339, -23.4169]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Arapongas",
+        "region": "norte",
+        "population": 121000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0275, -23.2850]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Santo Antônio da Platina",
+        "region": "nordeste",
+        "population": 43000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.9606, -23.1629]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Jacarezinho",
+        "region": "nordeste",
+        "population": 40000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.3517, -23.4050]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Siqueira Campos",
+        "region": "nordeste",
+        "population": 15000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.6536, -23.0617]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Wenceslau Braz",
+        "region": "nordeste",
+        "population": 22000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4567, -25.3954]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Guarapuava",
+        "region": "centro-oeste",
+        "population": 176000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.4584, -24.9541]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Cascavel",
+        "region": "centro-oeste",
+        "population": 328000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1849, -23.6616]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Cianorte",
+        "region": "centro-oeste",
+        "population": 88000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-54.5101, -24.5627]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Marechal Cândido Rondon",
+        "region": "centro-oeste",
+        "population": 52000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.6333, -23.5505]
+      },
+      "properties": {
+        "type": "city",
+        "name": "São Paulo",
+        "region": "sudeste",
+        "population": 12300000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.4576, -23.4979]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Sorocaba",
+        "region": "sudeste",
+        "population": 687000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2677, -25.4267]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Curitiba",
+        "region": "sul",
+        "population": 1855000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.1679, -25.0881]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Ponta Grossa",
+        "region": "sul",
+        "population": 334000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6553, -25.4683]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Irati",
+        "region": "sul",
+        "population": 119000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.7174, -26.2262]
+      },
+      "properties": {
+        "type": "city",
+        "name": "União da Vitória",
+        "region": "sul",
+        "population": 50000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.7071, -25.5169]
+      },
+      "properties": {
+        "type": "city",
+        "name": "Paranaguá",
+        "region": "sul",
+        "population": 140000
+      }
+    }
+  ]
+}
