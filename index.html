@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrinho 2026 - Mapa do Brasil e Consultor Agrícola</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Leaflet CSS para mapa interativo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.0.0/Control.FullScreen.min.css" />
+</head>
+<body>
+  <div id="map" class="leaflet-map"></div>
+
+  <!-- Aba inferior esquerda: entrada e resumo -->
+  <div id="info-tab" class="info-tab">
+    <button id="info-tab-toggle" class="info-tab-toggle">📋 Informações</button>
+    <div class="info-tab-content">
+      <h3>Resumo</h3>
+      <p id="info-summary">Clique no mapa para selecionar uma área. Use a busca para ir direto a um local.</p>
+      <label for="search-input">Buscar endereço / lugar</label>
+      <div class="search-group">
+        <input id="search-input" class="search-input" placeholder="Ex.: São Paulo, SP ou lat,lng" />
+        <button id="search-btn" class="consult-button">🔍 Buscar</button>
+      </div>
+      <div id="search-results" class="search-results"></div>
+
+      <label for="hillshade-opacity">Hillshade (opacidade)</label>
+      <div style="display:flex;gap:8px;align-items:center;margin-top:6px;">
+        <input id="hillshade-opacity" type="range" min="0" max="1" step="0.05" value="0.35" style="flex:1;" />
+        <div id="hillshade-value" style="min-width:44px;text-align:right;font-weight:600;">35%</div>
+      </div>
+
+      <label for="soil-type">Tipo de solo</label>
+      <select id="soil-type">
+        <option value="">-- selecione --</option>
+        <option value="arenoso">Arenoso</option>
+        <option value="argiloso">Argiloso</option>
+        <option value="silte">Siltoso</option>
+        <option value="misto">Misto</option>
+        <option value="vermelha">Terra vermelha</option>
+      </select>
+
+      <button id="apply-soil" class="consult-button">Gerar recomendações</button>
+      <hr />
+      <div id="info-quick" class="info-quick"></div>
+    </div>
+  </div>
+
+  <!-- Painel lateral de detalhes (abre ao clicar em um ponto) -->
+  <aside id="detail-panel" class="detail-panel hidden">
+    <button id="detail-close" class="detail-close">✕</button>
+    <div id="detail-content"></div>
+  </aside>
+
+  <footer class="site-footer compact">
+    <p>🌱 Agrinho 2026 — Mapa completo</p>
+  </footer>
+
+  <!-- Leaflet JS para mapa interativo -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.0.0/Control.FullScreen.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
